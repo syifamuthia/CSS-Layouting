@@ -1,0 +1,43 @@
+body {
+	font: 16px/28px helvetica, sans-serif;
+	background-color: #eaeaea;
+	color: #333333;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.header a {
+	text-decoration: none;
+	color: darksalmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+
+.hero {
+	height: 250px;
+	background-image: url(img/port.png);
+	background-size: cover;
+}
